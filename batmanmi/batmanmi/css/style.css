@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+/*section*/
+
+.separados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header clases*/
+.aqua {
+    background-color: #1CD1B0;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.azul {
+    background-color: #00669F;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*clases en los div del section*/
+.divs {
+    position: relative;
+    background-color: #F3F3F3;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin: 15px;
+    width: 300px;
+    height: 500px;
+}
+
+.corazon {
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+}
+
+.redonda {
+    position: absolute;
+    top: 130px;
+    left: 96px;
+    border-radius: 50%;
+}
+
+.text {
+    margin-top: 70px;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: center;
+}
+
+button {
+    margin: 1vh;
+}
+
+footer {
+    background-color: #00669F;
+}
